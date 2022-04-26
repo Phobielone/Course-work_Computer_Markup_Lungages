@@ -1,4 +1,4 @@
-.background {
+  .background {
   position: relative;
     background: #000000;
     margin: 0;
@@ -194,6 +194,8 @@
     align-items: center;  
     font-weight: bold;
     font-size: 30px;
+    color: #000000;
+    text-decoration: none;
     margin: 0 10px;
     background: #FFFFFF;
     border-radius: 20px;
@@ -502,6 +504,8 @@
     font-weight: bold;
     transition: 0.6s;
     overflow: hidden;
+    text-decoration: none;
+    color: #000000;
     p{
       animation: move-forever-x 5s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
     }
