@@ -139,6 +139,7 @@
     }
 
     .part{
+        transition: 0.6s;
         width: 100%;
         height: 50%;
         display: flex;
@@ -148,7 +149,7 @@
     .four-vid{
         background: #000000;
         border-radius: 30px;
-        width: 50%;
+        min-width: 50%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -165,12 +166,14 @@
         height: 40%;
         margin: 20px;
         iframe{
+            transition: 0.6s;
             border-radius: 30px;
             outline: 4px solid #FFFFFF;
         }
     }
     
     .main-vid{
+        transition: 0.6s;
         width: 50%;
         height: 100%;
         display: flex;
@@ -182,6 +185,60 @@
             border-radius: 30px;
             outline: 4px solid #000000;
         }
+    }
+
+    .channels-headline{
+        font-size: 40px;
+        color: #FFFFFF;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .channels{
+        margin: 30px 0 0 0;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .youtube-channels{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .chan{
+        transition: 0.6s;
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        width: 200px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 180px;
+            transition: 0.6s;
+        }
+    }
+    
+    .chan:hover img{
+        transform: scale(0.8);
+    }
+
+    .line{
+        width: 100%;
+        min-height: 3px;
+        background: #FFFFFF;
     }
 
     .waves-container{
@@ -337,3 +394,42 @@
         }
     }
     
+    @media(max-width:1400px){
+        .four-vid{
+            iframe{
+                width: 45%;
+                height: 90%;
+            }
+        }
+    }
+
+    @media(max-width:1000px){
+        .fun{
+            height: 2000px;
+        }
+        .all-videos{
+            flex-direction: column;
+        }
+        .part{
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main-vid{
+            width: 100%;
+        }
+
+        .four-vid{
+            margin: 10px;
+            width: 100%;
+        }
+        .chan{
+            font-size: 13px;
+            img{
+                width: 130px;
+                height: 130px;
+            }
+        }
+    }
