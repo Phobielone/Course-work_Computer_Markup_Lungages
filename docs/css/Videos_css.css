@@ -1,0 +1,502 @@
+.background {
+  position: relative;
+  background: #000000;
+  margin: 0;
+}
+
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: flex;
+  max-width: 1600px;
+  min-width: 900px;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  align-items: center;
+  padding: 0;
+}
+
+.container-logo {
+  margin: 20px 0;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-pic {
+  margin: 0 10px;
+  min-width: 100px;
+  height: 100px;
+  transition: 0.6s;
+}
+
+.logo-pic:hover {
+  transform: scale(1.2);
+}
+
+.dot {
+  min-width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.logo-line {
+  width: 40%;
+  height: 5px;
+  background: #FFFFFF;
+}
+
+.menu-container {
+  position: relative;
+  margin: 20px 0 0 -40px;
+  width: 90%;
+  height: 120px;
+  display: flex;
+  flex-wrap: nowrap;
+  transition: 0.6s;
+  justify-content: space-around;
+}
+
+.navbar {
+  position: absolute;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  width: 150px;
+  height: 80px;
+  transition: 0.6s;
+}
+
+.option:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.vert-line {
+  min-width: 3px;
+  height: 80px;
+  background: #FFFFFF;
+}
+
+.main-section {
+  width: 90%;
+  margin: 0 0 700px 0;
+  height: 3000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.fun {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 1000px;
+  border-radius: 30px;
+  background: #FFFFFF;
+}
+
+.fun-headline {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.all-videos {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.part {
+  transition: 0.6s;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.four-vid {
+  background: #000000;
+  border-radius: 30px;
+  min-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.duo {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-around;
+  width: 100%;
+  height: 40%;
+  margin: 20px;
+}
+.duo iframe {
+  transition: 0.6s;
+  border-radius: 30px;
+  outline: 4px solid #FFFFFF;
+}
+
+.main-vid {
+  transition: 0.6s;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-vid iframe {
+  width: 90%;
+  height: 90%;
+  border-radius: 30px;
+  outline: 4px solid #000000;
+}
+
+.channels-headline {
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.channels {
+  margin: 30px 0 0 0;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.youtube-channels {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.chan {
+  transition: 0.6s;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+.chan img {
+  width: 200px;
+  height: 200px;
+  border-radius: 180px;
+  transition: 0.6s;
+}
+
+.chan:hover img {
+  transform: scale(0.8);
+}
+
+.line {
+  width: 100%;
+  min-height: 3px;
+  background: #FFFFFF;
+}
+
+.education {
+  width: 90%;
+  height: 2700px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-edu-videos {
+  margin: 10px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edu-videos {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.edu-vid {
+  outline: 6px solid #FFFFFF;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+.edu-vid iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.waves-container {
+  width: 100%;
+}
+
+.waves {
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.content {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 0.6s;
+}
+
+.logo-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 240px;
+  transition: 0.6s;
+}
+.logo-footer img {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-up {
+  width: 100px;
+  height: 100px;
+  transition: 0.6s;
+}
+.logo-up img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-up:hover {
+  transform: scale(1.2);
+}
+
+.soc-media {
+  display: flex;
+  justify-content: right;
+}
+
+.soc-net img {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  transition: 0.6s;
+}
+
+.soc-net:hover img {
+  transform: scale(1.2);
+}
+
+.footer-description {
+  transition: 0.6s;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.company-info {
+  transition: 0.6s;
+  display: flex;
+  align-items: flex-end;
+  width: 40%;
+  height: 100%;
+}
+.company-info p {
+  height: 30%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  height: 100%;
+  transition: 0.6s;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 200px;
+  font-weight: bold;
+  transition: 0.6s;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.full-footer {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  bottom: 0%;
+  left: 0%;
+}
+
+.parallax > use {
+  -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+          animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+}
+
+.parallax > use:nth-child(2) {
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+  -webkit-animation-duration: 15s;
+          animation-duration: 15s;
+}
+
+.parallax > use:nth-child(3) {
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.parallax > use:nth-child(4) {
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+}
+
+@-webkit-keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(90px, 0, 0);
+  }
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(90px, 0, 0);
+  }
+}
+@media (max-width: 1400px) {
+  .four-vid iframe {
+    width: 45%;
+    height: 90%;
+  }
+}
+@media (max-width: 1000px) {
+  .fun {
+    height: 2000px;
+  }
+
+  .wrapper {
+    height: 4300px;
+  }
+
+  .all-videos {
+    flex-direction: column;
+  }
+
+  .part {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-vid {
+    width: 100%;
+  }
+
+  .four-vid {
+    margin: 10px;
+    width: 100%;
+  }
+
+  .chan {
+    font-size: 13px;
+  }
+  .chan img {
+    width: 130px;
+    height: 130px;
+  }
+}/*# sourceMappingURL=Videos_css.css.map */
