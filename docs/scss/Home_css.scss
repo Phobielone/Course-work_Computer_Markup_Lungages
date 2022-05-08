@@ -2,6 +2,7 @@
   position: relative;
     background: #000000;
     margin: 0;
+    font-family: 'Teko', sans-serif;
   }
   
   .wrapper{
@@ -65,7 +66,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    box-shadow: inset 0px -60px 100px 100px rgba( 0,0,0,1);
+    box-shadow: inset 0px -60px 100px 100px rgba(0,0,0);
   }
   
   .pic-line {
@@ -124,6 +125,7 @@
   
   .pic-description {
     position: absolute;
+    text-decoration: none;
     bottom: -12%;
     display: flex;
     align-items: center;
@@ -196,6 +198,7 @@
     align-items: center;  
     font-weight: bold;
     font-size: 30px;
+    font-family: 'Teko', sans-serif;
     color: #000000;
     text-decoration: none;
     margin: 0 10px;

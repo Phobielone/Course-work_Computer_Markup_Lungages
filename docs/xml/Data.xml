@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+<game>
+<name id="1">Disco Elysium</name>
+<rate>5</rate>
+<genre>Role-play Game</genre>
+</game>
+<game>
+<name id="2">The Witcher 3</name>
+<rate>4</rate>
+<genre>Action/RPG</genre>
+</game>
+<game>
+<name id="3">Ghostwire:Tokyo</name>
+<rate>3</rate>
+<genre>Action-Adventure</genre>
+</game>
+<game>
+<name id="4">Resident Evil 2</name>
+<rate>4</rate>
+<genre>Survival Horror</genre>
+</game>
+<game>
+<name id="5">A Plague Tale Innocence</name>
+<rate>4</rate>
+<genre>Action-Adventure</genre>
+</game>
+<game>
+<name id="6">God Of War</name>
+<rate>4</rate>
+<genre>Action-Adventure</genre>
+</game>
+<game>
+<name id="7">Half-Life Alyx</name>
+<rate>5</rate>
+<genre>Action-Adventure</genre>
+</game>
+<game>
+<name id="8">The Elder Scrolls V : Skyrim</name>
+<rate>3</rate>
+<genre>Action-Adventure</genre>
+</game>
+<game>
+<name id="9">Elden Ring</name>
+<rate>5</rate>
+<genre>Action/RPG</genre>
+</game>
+<game>
+<name id="10">It Takes Two</name>
+<rate>5</rate>
+<genre>Action-Adventure</genre>
+</game>
+<game>
+<name id="11">Silent Hill</name>
+<rate>4</rate>
+<genre>Survival Horror</genre>
+</game>
+<game>
+<name id="12">Metro: Exodus</name>
+<rate>4</rate>
+<genre>Shooter</genre>
+</game>
+<game>
+<name id="13">Grand Theft Auto V</name>
+<rate>2</rate>
+<genre>Action-Adventure</genre>
+</game>
+<game>
+<name id="14">Limbo</name>
+<rate>4</rate>
+<genre>Puzzle-Platformer</genre>
+</game>
+<game>
+<name id="15">Tekken 7</name>
+<rate>4</rate>
+<genre>Fighting</genre>
+</game>
+<game>
+<name id="16">Stardew Valley</name>
+<rate>4</rate>
+<genre>Role-play Game</genre>
+</game>
+<game>
+<name id="17">Inscryption</name>
+<rate>5</rate>
+<genre>Card Game</genre>
+</game>
+<game>
+<name id="18">Dont Starve</name>
+<rate>3</rate>
+<genre>Action-Survival</genre>
+</game>
+<game>
+<name id="19">Death Stranding</name>
+<rate>5</rate>
+<genre>Quest Adventure</genre>
+</game>
+<game>
+<name id="20">Five Nights At Freddys : Security Breach</name>
+<rate>5</rate>
+<genre>Survival Horror</genre>
+</game>
+<game>
+<name id="21">Subnautica</name>
+<rate>3</rate>
+<genre>Survival-Adventure</genre>
+</game>
+</list>
