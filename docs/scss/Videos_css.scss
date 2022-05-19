@@ -5,6 +5,11 @@
       font-family: 'Teko', sans-serif;
     }
     
+    @mixin headlines {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
     .wrapper{
       position: relative;
       margin: 0 auto;
@@ -126,8 +131,7 @@
     }
 
     .fun-headline{
-        font-size:40px;
-        font-weight: bold;
+        @include headlines;
         text-align: center;
     }
 

@@ -709,30 +709,22 @@
   }
   
   .parallax > use:nth-child(1) {
-    -webkit-animation-delay: -2s;
             animation-delay: -2s;
-    -webkit-animation-duration: 10s;
             animation-duration: 10s;
   }
   
   .parallax > use:nth-child(2) {
-    -webkit-animation-delay: -3s;
             animation-delay: -3s;
-    -webkit-animation-duration: 15s;
             animation-duration: 15s;
   }
   
   .parallax > use:nth-child(3) {
-    -webkit-animation-delay: -4s;
             animation-delay: -4s;
-    -webkit-animation-duration: 20s;
             animation-duration: 20s;
   }
   
   .parallax > use:nth-child(4) {
-    -webkit-animation-delay: -5s;
             animation-delay: -5s;
-    -webkit-animation-duration: 25s;
             animation-duration: 25s;
   }
   
@@ -790,7 +782,7 @@
   @keyframes round {
     20% {
       opacity: 1;
-    }
+    }  
     40% {
       opacity: 0;
     }
